@@ -6,7 +6,7 @@ namespace CodingExercise.Models
 {
     public class MinMaxResult
     {
-        public double? SmallestNumber { get; set; }
-        public double? LargestNumber { get; set; }
+        public double? SmallestNumber { get; set; } = null;
+        public double? LargestNumber { get; set; } = null;
     }
 }
